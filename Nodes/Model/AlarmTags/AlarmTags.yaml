@@ -1,0 +1,81 @@
+Name: AlarmTags
+Type: FolderType
+Children:
+- Name: Alm_WinderArmHigh
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Alm_WinderArmLow
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Alm_UnwinderArmHigh
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Alm_UnwinderArmLow
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Alm_WaterJacketUnderTemp
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Alm_WaterJacketOverTemp
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Alm_CrownRightCylinderTopPosLimit
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: |
+      Alm_CrownRightCylinderBottomPosLimit
+
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Alm_CrownLeftCylinderTopPosLimit
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: |
+      Alm_CrownLeftCylinderBottomPosLimit
+
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Alm_GapLeftCylinderTopPosLimit
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Alm_GapLeftCylinderBottomPosLimit
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Alm_GapRightCylinderTopPosLimit
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Alm_GapRightCylinderBottomPosLimit
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Alm_HeatingWaterPumpOverloadTrip
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Alm_HydraulicPumpOverloadTrip
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Alm_AnalogVariable
+  Id: g=dc2b6b57fa516cc319c0d6da1a17e7c8
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: Alm_DigitalVariable
+  Id: g=f0b40a52a503a1648ebf7502aabca2ca
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

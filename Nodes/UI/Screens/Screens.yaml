@@ -1,0 +1,11 @@
+Name: Screens
+Type: FolderType
+Children:
+- File: Dashboard/Dashboard.yaml
+- File: Drilling/Drilling.yaml
+- File: Mixing/Mixing.yaml
+- File: Coating/Coating.yaml
+- File: Drying/Drying.yaml
+- File: Calendaring/Calendaring.yaml
+- File: Slitting/Slitting.yaml
+- File: types/types.yaml

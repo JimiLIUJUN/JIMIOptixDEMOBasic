@@ -1,0 +1,16 @@
+Name: Model
+Type: FolderType
+Children:
+- File: Drilling/Drilling.yaml
+- File: Calendaring/Calendaring.yaml
+- File: DashBoard/DashBoard.yaml
+- File: Drying/Drying.yaml
+- File: Mixing/Mixing.yaml
+- File: Coating/Coating.yaml
+- File: Slitting/Slitting.yaml
+- File: AlarmTags/AlarmTags.yaml
+- Name: Panelnum
+  Id: g=395561478dfa1c031b2fe47a86a2dee8
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

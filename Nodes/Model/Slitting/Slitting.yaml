@@ -1,0 +1,12 @@
+Name: Slitting
+Type: FolderType
+Children:
+- Name: Selection_Level2
+  Id: g=f90857f76db401ef5c704f8d46a481e1
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Selection_Level3
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

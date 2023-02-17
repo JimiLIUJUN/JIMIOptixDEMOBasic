@@ -1,0 +1,13 @@
+Name: Drying
+Type: FolderType
+Children:
+- Name: Selection_Level2
+  Id: g=4afdd89bff07712f1bca6c69a61e27d5
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Selection_Level3
+  Id: g=23550ad2e3351e224b4fd3dcc4bdc4bc
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

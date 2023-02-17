@@ -1,0 +1,89 @@
+Name: Security
+Type: FolderType
+Children:
+- Name: CRCrownDisplacementLCForce
+  Id: g=5cfaeab9e50c247061cf39f57e4c0c11
+  Type: AnalogItemType
+  DataType: Float
+  Value: 229.0
+  Children:
+  - Name: EURange
+    Type: RangeType
+    DataType: EURange
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+    Children:
+    - Name: Low
+      Id: g=118298ee3e17f09b2d2969a00b6e693e
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 200.0
+    - Name: High
+      Id: g=9eb9ce9aa8680f7c7b45375387e82534
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 300.0
+  - Name: EngineeringUnits
+    Type: EUInformationType
+    DataType: EUInformation
+    Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+    Children:
+    - Name: UnitId
+      Type: BaseVariableType
+      DataType: Int32
+      ReferenceType: HasProperty
+      Value: 4338743
+    - Name: DisplayName
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Description
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: CRCrownDisplacementRCForce
+  Id: g=16aa76127fa7bdfb1d379ba46b8432a0
+  Type: AnalogItemType
+  DataType: Float
+  Value: 256.0
+  Children:
+  - Name: EURange
+    Type: RangeType
+    DataType: EURange
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+    Children:
+    - Name: Low
+      Id: g=10f3f0f830cdfebff803e9872d6c3404
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 200.0
+    - Name: High
+      Id: g=3a8c7a79042a7f312878897e73e0073f
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 300.0
+  - Name: EngineeringUnits
+    Type: EUInformationType
+    DataType: EUInformation
+    Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+    Children:
+    - Name: UnitId
+      Type: BaseVariableType
+      DataType: Int32
+      ReferenceType: HasProperty
+      Value: 4338743
+    - Name: DisplayName
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Description
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}

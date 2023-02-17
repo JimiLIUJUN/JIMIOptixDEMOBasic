@@ -1,0 +1,211 @@
+Name: DataStores
+Type: FolderType
+Children:
+- Name: EmbeddedDatabase
+  Id: g=4ae6fa018b5928daf71aa0c41b6bf5d7
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: Reporting
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=21;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=21;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=21;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=21;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Val_CRCrownDisplacementRCForce
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Val_CRCrownDisplacementLCForce
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Val_CalenderingRollerTemperatur
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Val_CRGapDistanceLeft
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Val_CRGapDistanceRight
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Val_CRCrownDisplacementRCForce_Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Val_CRCrownDisplacementLCForce_Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Val_CalenderingRollerTemperatur_Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Val_CRGapDistanceLeft_Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Val_CRGapDistanceRight_Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+      - Name: RecordLimit
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 1000
+    - Name: DrillingRecipe
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=21;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=21;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=21;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=21;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Name
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: /Val_Bit01ArmPosition
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: /Val_Bit01Pressure
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: /Val_Bit01RotationSpeed
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: /Val_Bit01Wear
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: /Val_Bit02ArmPosition
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: /Val_Bit02Pressure
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: /Val_Bit02RotationSpeed
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: /Val_Bit02Wear
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: /Val_Bit03ArmPosition
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: /Val_Bit03Pressure
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: /Val_Bit03RotationSpeed
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: /Val_Bit03Wear
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: /Val_ForwardSpeed
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+  - Class: Reference
+    Target: ns=23;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=21;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=59
+    Direction: Forward

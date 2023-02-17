@@ -1,0 +1,22 @@
+Name: Groups
+Id: g=148b7281ff6819532a8c355dba83658f
+Type: FolderType
+Children:
+- Name: Operator
+  Id: g=61fbf2339aac3cc3e1c2948b03eb77a9
+  Type: GroupType
+- Name: Resticted
+  Id: g=55b4259c034f18439dc6d4a12537a392
+  Type: GroupType
+- Name: Maintenance
+  Id: g=a3dc55e98a0a4c7cc361520d717a5781
+  Type: GroupType
+- Name: Supervisor
+  Id: g=8b314d7e7a201366aee3c453cac20db1
+  Type: GroupType
+- Name: Administrator
+  Id: g=a5ba54e9d65add50300daccf385da7d2
+  Type: GroupType
+- Name: Engineer
+  Id: g=b811c360dac1a63750f63402e6fce561
+  Type: GroupType

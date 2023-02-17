@@ -1,0 +1,19 @@
+<svg version="1.2" baseProfile="tiny" id="EdgeSVG_JG75U" x="0px" y="0px" width="118.78px" height="24.717px" viewBox="0 0 118.78 24.717" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="69.3726" y1="6.3584" x2="69.3726" y2="18.3584">
+    <stop offset="0.0245" style="stop-color:#000000;stop-opacity:0.45"/>
+    <stop offset="0.0736" style="stop-color:#000000;stop-opacity:0.2"/>
+    <stop offset="0.1779" style="stop-color:#000000;stop-opacity:0.55"/>
+    <stop offset="0.2155" style="stop-color:#393939;stop-opacity:0.4649"/>
+    <stop offset="0.2656" style="stop-color:#7F7F7F;stop-opacity:0.3516"/>
+    <stop offset="0.3108" style="stop-color:#B6B6B6;stop-opacity:0.2492"/>
+    <stop offset="0.3494" style="stop-color:#DEDEDE;stop-opacity:0.1617"/>
+    <stop offset="0.38" style="stop-color:#F6F6F6;stop-opacity:0.0924"/>
+    <stop offset="0.3988" style="stop-color:#FFFFFF;stop-opacity:0.05"/>
+    <stop offset="0.4785" style="stop-color:#FFFFFF;stop-opacity:0.55"/>
+    <stop offset="0.5767" style="stop-color:#FFFFFF;stop-opacity:0.65"/>
+    <stop offset="0.7362" style="stop-color:#000000;stop-opacity:0.65"/>
+    <stop offset="0.908" style="stop-color:#000000;stop-opacity:0.2"/>
+    <stop offset="0.9693" style="stop-color:#000000;stop-opacity:0.5"/>
+  </linearGradient>
+  <path fill="url(#SVGID_6_)" d="M21.465,6.358h0.002c1.131,1.705,1.812,3.824,1.812,6c0,2.139-0.639,4.293-1.773,6h-0.003h95.778&#xD;&#xA;&#x9;&#x9;v-12H21.465z"/>
+</svg>

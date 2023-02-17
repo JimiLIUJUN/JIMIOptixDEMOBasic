@@ -1,0 +1,59 @@
+Name: CylinderPressures
+Type: FolderType
+Children:
+- Name: Out_CrownCylinderPressureLeft
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/LogixDriver1/LogixStation1/Tags/Program&:Calendaring/Out_CrownCylinderPressureLeft"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Out_CrownCylinderPressureRight
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/LogixDriver1/LogixStation1/Tags/Program&:Calendaring/Out_CrownCylinderPressureRight"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Out_GapCylinderPressureLeft
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/LogixDriver1/LogixStation1/Tags/Program&:Calendaring/Out_GapCylinderPressureLeft"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Out_GapCylinderPressureRight
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/LogixDriver1/LogixStation1/Tags/Program&:Calendaring/Out_CrownCylinderPressureRight"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

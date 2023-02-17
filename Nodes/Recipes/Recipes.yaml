@@ -1,0 +1,168 @@
+Name: Recipes
+Type: FolderType
+Children:
+- Name: DrillingRecipe
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: Val_Bit01ArmPosition
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Val_Bit01Pressure
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Val_Bit01RotationSpeed
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Val_Bit01Wear
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Val_Bit02ArmPosition
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Val_Bit02Pressure
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Val_Bit02RotationSpeed
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Val_Bit02Wear
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Val_Bit03ArmPosition
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Val_Bit03Pressure
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Val_Bit03RotationSpeed
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Val_Bit03Wear
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Val_ForwardSpeed
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+  - Class: Reference
+    Target: ns=15;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=60
+    Direction: Forward
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"4ae6fa018b5928daf71aa0c41b6bf5d7","Namespace":32}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":21}
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"58edcee01a14a75e0ff3f1d4f4a0369a","Namespace":32}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: EditModel
+    Id: g=5bdce8887c992c2a0448936f17b89c2c
+    Type: BaseObjectType
+    Children:
+    - Name: Val_Bit01ArmPosition
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Val_Bit01Pressure
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Val_Bit01RotationSpeed
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Val_Bit01Wear
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Val_Bit02ArmPosition
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Val_Bit02Pressure
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Val_Bit02RotationSpeed
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Val_Bit02Wear
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Val_Bit03ArmPosition
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Val_Bit03Pressure
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Val_Bit03RotationSpeed
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Val_Bit03Wear
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Val_ForwardSpeed
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0

@@ -1,0 +1,14 @@
+Name: NetLogic
+Type: FolderType
+Children:
+- Name: DesignTimeNetLogic
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: CreateCustomWidget
+  - Class: Method
+    Name: CreateMotors

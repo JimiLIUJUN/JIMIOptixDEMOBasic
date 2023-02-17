@@ -1,0 +1,130 @@
+Name: ExpressionEvaluator
+Type: FolderType
+Children:
+- Name: ExpressionsConditionalConverterVariable1
+  Id: g=003762eeaab386f4bdd0e67e52b75fda
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: ExpressionsConditionalConverterVariable2
+  Id: g=ecc6db35affe11a4237f720583b73600
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: NumberEditableMax1
+  Id: g=3493669f94ba792555da2900b01af067
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: NumberEditableMax2
+  Id: g=88086f7e161e09ac577a5c049bc3aed6
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: NumberEditableMax3
+  Id: g=a00845deadc5bc5837909617a20b2305
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: NumberEditableMin1
+  Id: g=ea680534332934d48bb8635c074ad88b
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: NumberEditableMin2
+  Id: g=45c2f61f76d8f45245f65e69f70b8707
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: NumberEditableMin3
+  Id: g=57658ab017bff9c36b162c8991b20732
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: NumberEditableAvg1
+  Id: g=429826f7bf378aa72e7c23b62010ae48
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: NumberEditableAvg2
+  Id: g=d144415d626c39b4a9e27eae88c818c7
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: NumberEditableAvg3
+  Id: g=99155673acb56bcc9eb363a0a360ae3c
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: NumberResultAvg
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: NumberEditableLinear1_m
+  Id: g=e4d84ec72763c0328530cea89a1fce12
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: NumberEditableLinear2_x
+  Id: g=1b7ecf001341bcfd890e6e05624381f4
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: NumberEditableLinear3_q
+  Id: g=5fc8f87ddcbd16a52219821ad0f796cd
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: NumberResultLinear_y
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: EngUnitC_RAW
+  Id: g=2f4ea974c62ea0f4a51d0de497f9dfb1
+  Type: AnalogItemType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: EURange
+    Type: RangeType
+    DataType: EURange
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+    Children:
+    - Name: Low
+      Id: g=b83e11a6cdff57b929632d5e837747d9
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 4.0
+    - Name: High
+      Id: g=8f122d79edb6b95e4ceb822085e06257
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 20.0
+    - Name: Constrain
+      Type: BaseVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: false
+  - Name: EngineeringUnits
+    Type: EUInformationType
+    DataType: EUInformation
+    Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+    Children:
+    - Name: UnitId
+      Type: BaseVariableType
+      DataType: Int32
+      ReferenceType: HasProperty
+      Value: 13387
+    - Name: DisplayName
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Description
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- File: DOW/DOW.yaml

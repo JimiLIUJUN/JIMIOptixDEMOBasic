@@ -1,0 +1,37 @@
+<svg version="1.2" baseProfile="tiny" id="EdgeSVG_JG75U" x="0px" y="0px" width="118.78px" height="24.717px" viewBox="0 0 118.78 24.717" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <circle fill="#4D4D4D" cx="12.288" cy="12.358" r="8.432"/>
+  <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="12.2881" y1="3.9272" x2="12.2881" y2="20.7896">
+    <stop offset="0" style="stop-color:#FFFFFF;stop-opacity:0.25"/>
+    <stop offset="0.119" style="stop-color:#D2D2D2;stop-opacity:0.2738"/>
+    <stop offset="0.3009" style="stop-color:#939393;stop-opacity:0.3102"/>
+    <stop offset="0.4751" style="stop-color:#5E5E5E;stop-opacity:0.345"/>
+    <stop offset="0.6367" style="stop-color:#353535;stop-opacity:0.3773"/>
+    <stop offset="0.7829" style="stop-color:#181818;stop-opacity:0.4066"/>
+    <stop offset="0.9088" style="stop-color:#060606;stop-opacity:0.4318"/>
+    <stop offset="1" style="stop-color:#000000;stop-opacity:0.45"/>
+  </linearGradient>
+  <circle fill="url(#SVGID_2_)" cx="12.288" cy="12.358" r="8.432"/>
+  <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="12.2881" y1="16.8125" x2="12.2881" y2="7.9043">
+    <stop offset="0" style="stop-color:#FFFFFF;stop-opacity:0.25"/>
+    <stop offset="0.0611" style="stop-color:#DBDBDB;stop-opacity:0.2622"/>
+    <stop offset="0.1592" style="stop-color:#A8A8A8;stop-opacity:0.2818"/>
+    <stop offset="0.2619" style="stop-color:#7B7B7B;stop-opacity:0.3024"/>
+    <stop offset="0.3674" style="stop-color:#555555;stop-opacity:0.3235"/>
+    <stop offset="0.4761" style="stop-color:#363636;stop-opacity:0.3452"/>
+    <stop offset="0.5894" style="stop-color:#1E1E1E;stop-opacity:0.3679"/>
+    <stop offset="0.7089" style="stop-color:#0D0D0D;stop-opacity:0.3918"/>
+    <stop offset="0.8392" style="stop-color:#030303;stop-opacity:0.4178"/>
+    <stop offset="1" style="stop-color:#000000;stop-opacity:0.45"/>
+  </linearGradient>
+  <circle fill="url(#SVGID_3_)" cx="12.288" cy="12.358" r="4.454"/>
+  <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="12.3906" y1="1.5" x2="12.3906" y2="23.2803">
+    <stop offset="0" style="stop-color:#000000;stop-opacity:0"/>
+    <stop offset="1" style="stop-color:#000000;stop-opacity:0.15"/>
+  </linearGradient>
+  <path fill="url(#SVGID_4_)" d="M23.281,12.39c0-6.053-4.894-10.89-10.93-10.89C6.315,1.5,1.5,6.336,1.5,12.39&#xD;&#xA;&#x9;&#x9;c0,6.054,4.815,10.891,10.852,10.891C18.388,23.28,23.281,18.443,23.281,12.39z"/>
+  <linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="12.3906" y1="1.5" x2="12.3906" y2="23.2803">
+    <stop offset="0" style="stop-color:#000000;stop-opacity:0"/>
+    <stop offset="0.6933" style="stop-color:#000000;stop-opacity:0.15"/>
+  </linearGradient>
+  <path fill="url(#SVGID_5_)" d="M23.281,12.39c0-6.053-4.894-10.89-10.93-10.89C6.315,1.5,1.5,6.336,1.5,12.39&#xD;&#xA;&#x9;&#x9;c0,6.054,4.815,10.891,10.852,10.891C18.388,23.28,23.281,18.443,23.281,12.39z"/>
+</svg>

@@ -1,0 +1,12 @@
+Name: Coating
+Type: FolderType
+Children:
+- Name: Selection_Level2
+  Id: g=7c6b315ed746e9752330a4df03c8c19c
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Selection_Level3
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

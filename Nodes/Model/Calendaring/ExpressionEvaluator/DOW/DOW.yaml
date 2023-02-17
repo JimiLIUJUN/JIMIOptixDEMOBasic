@@ -1,0 +1,33 @@
+Name: DOW
+Id: g=c2af0daf3680f85b7c6057f1fdafbd50
+Type: FolderType
+Children:
+- Name: Monday
+  Id: g=c682e5829e49876eb836e0927b1733f4
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Monday"
+- Name: Tuesday
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Tuesday"
+- Name: Wednesday
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Wednesday"
+- Name: Thursday
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Thursday"
+- Name: Friday
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Friday"
+- Name: Saturday
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Saturday"
+- Name: Sunday
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Sunday"

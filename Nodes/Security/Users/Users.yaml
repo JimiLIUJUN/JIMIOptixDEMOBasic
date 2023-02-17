@@ -1,0 +1,142 @@
+Name: Users
+Id: g=52e959a04b65a29ebad11918f58af521
+Type: FolderType
+Children:
+- Name: Guest
+  Id: g=cd5a5242b0543404493d8eb09dd1e9d0
+  Type: UserType
+  Children:
+  - Name: Password
+    Id: g=8bcd5448cc21cfff5e9e2e90b62d2080
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=86de29cefe59cc7c08c93529e54a8278
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: {"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[10,193,32,205,210,233,72,242,38,229,15,4,137,38,136,203,86,137,190,210,122,85,159,57,28,216,203,60,8,90,101,225],"Salt":[102,4,32,180,27,153,160,20,227,21,251,137,169,221,164,190,194,197,185,55,124,203,217,250,91,106,253,76,127,18,82,31]}}
+    - Name: ChangeTimestamp
+      Id: g=827db0fa2f1ca7cf90f40c3a0e6481ba
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2022-07-15T08:09:20.0260393"
+    - Name: History
+      Id: g=9a90b94cc4c2db7d520703651072bb6b
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: []
+  - Name: LocaleId
+    Id: g=d67a9e0333ec7e26029f29c5ecf773bd
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+- Name: John
+  Id: g=20880931a76b9686859dcc81467060aa
+  Type: UserType
+  Children:
+  - Name: LocaleId
+    Id: g=638a9a3c8b324ff1e0e30b9de909ebdb
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: Language
+    Id: g=f53343734a926aed130b60bdee803e44
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: MeasurementSystem
+    Id: g=4a65dac1fcdfd5eac8537b196745d9ee
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 2
+  - Class: Reference
+    Type: HasGroup
+    Target: g=a3dc55e98a0a4c7cc361520d717a5781
+- Name: Tracy
+  Id: g=8b6d9c1dbbd7f1068c057e0840560212
+  Type: UserType
+  Children:
+  - Name: LocaleId
+    Id: g=9d52808fe140285225e7b0ff2a840019
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: Language
+    Id: g=0534fea2cb74af200ac29dee9ac4949a
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: MeasurementSystem
+    Id: g=34152cdd6e871bc10a3fd4a318dee91a
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 3
+  - Class: Reference
+    Type: HasGroup
+    Target: g=8b314d7e7a201366aee3c453cac20db1
+- Name: Davide
+  Id: g=bcf668140b9a13c1e896bdc86744340c
+  Type: UserType
+  Children:
+  - Name: LocaleId
+    Id: g=8ddf88e13ce0ffd5190e15014d100520
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "it-IT"
+  - Name: Language
+    Id: g=85f6904a2ad2b787a064c510f3f87abd
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "it-IT"
+  - Name: MeasurementSystem
+    Id: g=8f3bfcbfcada9c06b36ad3664fae3f69
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
+  - Class: Reference
+    Type: HasGroup
+    Target: g=a5ba54e9d65add50300daccf385da7d2
+- Name: Max
+  Id: g=457f1c907999904728c371a6b98eebd8
+  Type: UserType
+  Children:
+  - Name: LocaleId
+    Id: g=8d3950a139e43fad418d01c3c76a8625
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "de-AT"
+  - Name: Language
+    Id: g=f7ee6ad6be21183e6e8b9ad0cac703e9
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "de-AT"
+  - Name: MeasurementSystem
+    Id: g=c81946d6ad9b99dd1f7191beef2b7468
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
+  - Class: Reference
+    Type: HasGroup
+    Target: g=b811c360dac1a63750f63402e6fce561

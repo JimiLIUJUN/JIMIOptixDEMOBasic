@@ -1,0 +1,190 @@
+Name: Converters
+Type: FolderType
+Children:
+- Name: Grey_Blue
+  Id: g=4cbbba06e3fe8cccf7af188585ae96f3
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+        Value: false
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#d1d3d4"
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+        Value: true
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#4672c4"
+- Name: Trans_Blue
+  Id: g=8d1deea21cce67269d61dd2a796b85c3
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+        Value: false
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00000000"
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+        Value: true
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#4672c4"
+- Name: EngineeringUnitDictionary
+  Type: EngineeringUnitDictionary
+  DataType: EngineeringUnitDictionaryItem
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: [{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":0,"DisplayName":{"LocaleId":"en-US","Text":"µm"},"Description":{"LocaleId":"en-US","Text":"micrometer"},"PhysicalDimension":1,"Slope":1000000.0,"Intercept":0.0}}]
+- Name: DayOfTheWeek
+  Id: g=22e5f7560ffbe1262df93fe6243e76a8
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Monday"
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: UInt16
+        ModellingRule: None
+        Value: 0
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Tuesday"
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: UInt16
+        ModellingRule: None
+        Value: 0
+    - Name: Pair2
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Wednesday"
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: UInt16
+        ModellingRule: None
+        Value: 0
+    - Name: Pair3
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Thursday"
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: UInt16
+        ModellingRule: None
+        Value: 0
+    - Name: Pair4
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Friday"
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: UInt16
+        ModellingRule: None
+        Value: 0
+    - Name: Pair5
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Saturday"
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: UInt16
+        ModellingRule: None
+        Value: 0
+    - Name: Pair6
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "Sunday"
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: UInt16
+        ModellingRule: None
+        Value: 0
